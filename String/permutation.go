@@ -1,7 +1,10 @@
 package main
 
-// https://leetcode.com/problems/permutation-in-string/
-// This solution work only in lower case letter
+/*
+	Problem https://leetcode.com/problems/permutation-in-string/
+	This solution work only in lower case letter
+	Using a flag array to check permutation
+*/
 func checkInclusion(s1 string, s2 string) bool {
 	// there are 26 characters in lower case from a->z
 	s1Arr, s2Arr := [26]int{}, [26]int{}
